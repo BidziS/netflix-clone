@@ -1,0 +1,85 @@
+.Footer {
+    min-width: 190px;
+    width: 100%;
+    margin-top: 80px;
+    padding-bottom: 20px;
+    font-size: 1em;
+    color: #999;
+    position: relative;
+    .Container {
+        height: 100%;
+        max-width: 1000px;
+        margin: 0 auto;
+        padding-top: 30px;
+        width: 90%;
+        font-size: 1em;
+        color: #999;
+        .FooterTop {
+            padding: 0;
+            margin: 0 0 30px;
+            a {
+                text-decoration: none;
+                color: #999;
+            } 
+        }
+        ul {
+            padding: 0;
+            margin: 0;
+            max-width: 1000px;
+            font-size: 13px;
+            box-sizing: border-box;
+            display: flex;
+            flex-wrap: wrap;
+            li {
+                box-sizing: border-box;
+                padding: 0;
+                margin-bottom: 16px;
+                display: inline-block;
+                min-width: 100px;
+                flex: 1 1 25%;
+                width: 25%;
+                padding-right: 12px;
+                vertical-align: top;
+                a {
+                    color: #999;
+                    text-decoration: none;
+                }
+            }
+        }
+        .ChangeLanguageSection {
+            margin-top: 20px;
+            .PicklistContainer {
+                width: 165px;
+                display: inline-block;
+                position: relative;
+                select {
+                    &::before {
+                        content: '&#xf0ac;';
+                    }
+                    padding-left: 50px;
+                    text-indent: 2px;
+                    line-height: 1.7;
+                    background-color: #000;
+                    background-image: none;
+                    border: 1px solid #333;
+                    text-transform: uppercase;
+                    font-size: 13px;
+                    padding: 12px;
+                    border-radius: 2px;
+                    width: 100%;
+                    color: inherit;
+                    font: inherit;
+                    margin: 0;
+                    option {
+                        text-indent: 2px;
+                        line-height: 1.7;
+                    }
+                }
+            }
+        }
+        .FooterBottom {
+            font-size: 13px;
+            margin-top: 24px;
+        }
+    }
+}

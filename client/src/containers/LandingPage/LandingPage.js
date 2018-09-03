@@ -5,6 +5,7 @@ import { Route, Switch, withRouter, Redirect } from 'react-router-dom';
 import Aux from '../../hoc/Auxiliary/Auxiliary';
 import Join from '../../components/Landing/Join/Join';
 import LandingNavigation from '../../components/Landing/LandingNavigation/LandingNavigation';
+import Footer from '../../components/Landing/Footer/Footer';
 
 import ChoosePlan from '../../components/Landing/ChoosePlan/ChoosePlan';
 import StartUse from '../../components/Landing/StartUse/StartUse';
@@ -30,6 +31,7 @@ class LandingPage extends Component {
                         <Redirect to="/start-use" />
                     </Switch>
                 </div>
+                <Footer />
             </Aux>
         )
     }
