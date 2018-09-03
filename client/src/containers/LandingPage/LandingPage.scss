@@ -1,0 +1,13 @@
+.LandingPage {
+    background: linear-gradient(0deg,rgba(0,0,0,0) 50%,rgba(0,0,0,.5) 100%),radial-gradient(50% 120%,rgba(0,0,0,0) 50%,rgba(0,0,0,.7) 100%), url("../../assets/images/netflix-landing-page-background.jpg");
+    height: 95vh;
+    .Background {
+        background: rgba(0,0,0,.5);
+        height: 100%;
+    }
+}
+
+.Join {
+    margin-top: 0;
+    position: relative;
+}

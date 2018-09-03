@@ -1,0 +1,57 @@
+.StartUse {
+    margin: 0 auto;
+    padding: 40px 0;
+    width: 70%;
+    max-width: 1400px;
+    min-height: 496px;
+    display: flex;
+    .Column {
+        flex: 1 1 0;
+        vertical-align: top;
+        display: inline-block;
+        &.WithText{
+            position: relative;
+            height: auto;
+            top: 70px;
+        }
+        .Text {
+            position: relative;
+            color: #fff;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        .Image {
+            height: auto;
+            max-height: 400px;
+            width: auto;
+            max-width: 100%;
+        }
+        button {
+            display: inline-block;
+            position: relative;
+            padding: 1em 1.5em 1em 2em;
+            font-size: 14px;
+            letter-spacing: 1.9px;
+            padding: 18px 20px;
+            width: auto;
+            outline: 0;
+            white-space: normal;
+            margin: .5em .5em .5em 0;
+            position: relative;
+            color: #fff;
+            background-color: #e50914;
+            background-image: linear-gradient(to bottom,#e50914,#db0510);
+            box-shadow: 0 1px 0 rgba(0,0,0,.45);
+            display: inline-block;
+            text-decoration: none;
+            line-height: 1em;
+            vertical-align: middle;
+            cursor: pointer;
+            border-radius: 2px;
+            user-select: none;
+            text-align: center;
+            box-sizing: border-box;
+            border: 0
+        }
+    }
+}

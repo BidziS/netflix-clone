@@ -1,0 +1,37 @@
+.Container {
+    padding-top: 15px;
+    background-color: #141414;
+    border-bottom: 2px solid #3d3d3d;
+    border-right: none;
+    .LandingNavigation {
+        margin: 0 auto;
+        padding-top: 20px;
+        width: 80%;
+        .LinkContainer {
+            display: flex;
+            .NavItem {
+                flex: 1 1 0;
+                height: 125px;
+                box-sizing: border-box;
+                color: #777;
+                fill: #777;
+                text-decoration: none;
+                .Text {
+                    margin-top: 10px;
+                    font-weight: 700;
+                    text-align: center;
+                }
+                :hover {
+                    color: #fff;
+                    fill: #fff;
+                }
+                &.Active {
+                    color: #fff;
+                    fill: #fff;
+                    border-bottom: 5px solid #e50914;
+                }
+            }
+            
+        }
+    }
+}
